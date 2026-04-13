@@ -3,3 +3,9 @@ node_modules
 dist
 package-lock.json
 .wordpress
+
+# WordPress runtime files — change on every page load, don't commit these
+wp-content/database/
+wp-content/debug.log
+wp-content/upgrade/
+wp-content/uploads/
